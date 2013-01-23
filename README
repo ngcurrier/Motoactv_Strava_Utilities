@@ -1,0 +1,5 @@
+Place username and passwords for both Strava and Motoactv web portal
+in motoactv_exporter.py.  Run motoactv_exporter.py from command line.
+Note: this implementation depends on command line access to "tidy" to 
+clean up the indentation of .tcx files for upload to Strava. Strava
+only accepts XML with proper indentation.  Sigh.
